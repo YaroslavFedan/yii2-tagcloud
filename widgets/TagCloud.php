@@ -11,7 +11,7 @@ use yii\web\NotFoundHttpException;
 
 class TagCloud extends Widget
 {
-
+   
     /**
      * @var array
      */
