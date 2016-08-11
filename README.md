@@ -3,7 +3,7 @@
 
 ####Download:
 
-Download from [Github](https://github.com/YaroslavFedan/yii2-multilanguage).
+Download from [Github](https://github.com/YaroslavFedan/yii2-tagcloud).
 
 **Composer**
 ```
@@ -33,7 +33,8 @@ composer require dongrim/yii2-tagcloud
        ...
     ],
 //  'customView' =>'',
-//  'customLink' =>''
+//  'customLink' =>'',
+//  'customWidgetView' =>''
 ],
 ```
 **Параметры**
@@ -41,8 +42,10 @@ composer require dongrim/yii2-tagcloud
 model - указатель на модель
 attribute - поле в таблице
 type - (не обязательный параметр)  разделение по типу во view результатов поиска
-customView - (не обязательный параметр) путь к view для отображения облака
-customLink - (не обязательный параметр) ссылка на контроллер  - обработчик поиска
+
+customView - (не обязательный параметр) отображение результатов поиска
+customLink - (не обязательный параметр) контроллер  - обработчик поиска
+customWidgetView - (не обязательный параметр) отображения облака
 ```
 
 Использование
