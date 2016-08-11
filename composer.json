@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "dongrim\\yii2-tagcloud\\": ""
+      "dongrim\\tagcloud\\": ""
     }
   }
 }
